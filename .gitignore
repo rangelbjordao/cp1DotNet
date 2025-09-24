@@ -1,8 +1,72 @@
-# Visual Studio
+# Visual Studio cache/options
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
 # Build results
 bin/
 obj/
+[Bb]uild/
+[Ll]og/
+
+# Roslyn cache
+*.ide/
+
+# Backup & auto-generated files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+
+# NuGet
+*.nupkg
+*.snupkg
+# Ignore package restore cache
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Azure build
+*.azurePubxml
+*.publishsettings
+
+# Rider (caso use)
+.idea/
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dll
+*.exe
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.swp
